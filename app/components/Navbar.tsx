@@ -11,29 +11,39 @@ export default function Navbar() {
 
 
     return (
-        <nav className='flex justify-between items-center m-4'>
+        <nav className='relative flex justify-between items-center m-4'>
             <div>
                 <a href="" className="logo">FERJO</a>
             </div>
-            <ul className='hidden'>
+            <ul className='hidden sm:flex'>
                 <li><a href="#About me">About me</a></li>
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
 
-            <div>
+            <div className='sm:hidden'>
                 <button onClick={toggleMenu}>
-                    <img src={isMenuOpen ? '/icon-menu-back.svg' : '/icon-menu.svg'} alt="" />
+                    <img 
+                    src={isMenuOpen ?
+                     '/icon-menu-back.svg' :
+                      '/icon-menu.svg'} 
+                      alt="" />
                 </button>
             </div>
+            
 
             {isMenuOpen && (
-                <ul className="">
+               <div className='absolute top-16 right-4'>
+               <ul>
                     <li><a href="#About me">About me</a></li>
                     <li><a href="#Projects">Projects</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
+                </div>
+             
             )}
+            
+           
 
         </nav>
 

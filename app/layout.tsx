@@ -15,6 +15,13 @@ const k2d = K2D({
   display: "swap",
 });
 
+const inter = Inter({
+  subsets:["latin"],
+  weight: ["300","400","500","600"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${k2d.variable}`}>
+      <body className={`${k2d.variable} ${inter.variable}`}>
         {children}
         <Navbar/> 
       </body>

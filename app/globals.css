@@ -8,7 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-k2d: "k2d", sans-serif;
+  --font-k2d: "K2D", sans-serif;
   --font-inter: "inter", sans-serif;
   
 }
