@@ -17,7 +17,7 @@ const k2d = K2D({
 
 const inter = Inter({
   subsets:["latin"],
-  weight: ["300","400","500","600"],
+  weight: ["200","300","400","500","600"],
   variable: "--font-inter",
   display: "swap",
 });
@@ -29,9 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${k2d.variable} ${inter.variable}`}>
-        {children}
+      <body className={`mx-5 md:mx-8 md:mt-6 ${k2d.variable} ${inter.variable}`}>
         <Navbar/> 
+        {children}
       </body>
     </html>
   );

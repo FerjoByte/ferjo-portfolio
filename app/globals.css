@@ -38,10 +38,12 @@ a.logo {
   font-family: var(--font-k2d);
   font-weight: 500;
   font-size: 1.5rem;
+  color: #DBCFCF;
 }
 
 ul {
   font-family: var(--font-inter);
-  font-weight: 300;
+  font-weight: 200;
+  font-size: smaller;
   color: #DBCFCF;
 }
