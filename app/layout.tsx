@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`mx-5 md:mx-8 md:mt-6 ${k2d.variable} ${inter.variable}`}>
+      <body className={`mx-5 md:mx-14 md:mt-6 ${k2d.variable} ${inter.variable}`}>
         <Navbar/> 
         {children}
       </body>

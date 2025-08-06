@@ -44,6 +44,6 @@ a.logo {
 ul {
   font-family: var(--font-inter);
   font-weight: 200;
-  font-size: smaller;
+  font-size: small;
   color: #DBCFCF;
 }
