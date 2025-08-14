@@ -41,7 +41,7 @@ a.logo {
   color: #DBCFCF;
 }
 
-ul {
+ul#menu {
   font-family: var(--font-inter);
   font-weight: 200;
   font-size: small;

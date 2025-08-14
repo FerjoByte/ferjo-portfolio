@@ -2,14 +2,14 @@ export default function Aboutme() {
     return (
         <section>
             <div className="lg:flex mt-16">
-                <div>
+                <div className="lg:basis-1/3">
                     <h3 className="font-k2d font-extralight text-[#B1ABAB] mt-10 text-xl ">ABOUT ME</h3>
                     <p className="font-inter font-medium text-xl mt-4 md:text-2xl ">
                         I’M A SOFTWARE DEVELOPER. <br />
                         I ENJOY CREATING, LEARNING, <br />
                         AND OVERCOMING CHALLENGES</p>
                 </div>
-                <div className="flex justify-center lg:mx-36 my-12 lg:mt-22 ">
+                <div className="flex justify-center lg:basis-1/3 my-12 lg:mt-22 ">
                     <img src="/profilePhoto.png" alt=""
                         className="shadow-lg" />
                 </div>
@@ -28,7 +28,7 @@ export default function Aboutme() {
                 </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 mt-4">
                 <a href="">
                     <img src="/icon-github.svg" alt="Github" />
                 </a>
