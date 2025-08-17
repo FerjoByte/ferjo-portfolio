@@ -29,10 +29,12 @@ export default function Aboutme() {
             </div>
 
             <div className="flex gap-4 mt-4">
-                <a href="">
+                <a href="https://github.com/FerjoByte"
+                    target="_blank" rel="noopener noreferrer">
                     <img src="/icon-github.svg" alt="Github" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/jonathan-fernandez-6bab18213/" target="_blank"
+                    rel="noopener noreferrer">
                     <img src="/icon-linkedin.svg" alt="Linkedin" />
                 </a>
             </div>
