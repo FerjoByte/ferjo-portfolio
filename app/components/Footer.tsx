@@ -17,10 +17,18 @@ export default function Footer() {
 
             <div className="grid justify-items-end basis-1/2 lg:basis-1/3 text-[#ffffff]">
                 <div className=" flex gap-4">
+
+                    <a href="https://github.com/FerjoByte" target="_blank" rel="noopener noreferrer">
+                        <img src="/icon-cv-white.svg" alt="Github"
+                            className="" />
+                    </a>
+
+
                     <a href="https://github.com/FerjoByte" target="_blank" rel="noopener noreferrer">
                         <img src="/icon-github-white.svg" alt="Github"
                             className="" />
                     </a>
+
                     <a href="https://www.linkedin.com/in/jonathan-fernandez-6bab18213/" target="_blank" rel="noopener noreferrer">
                         <img src="/icon-linkedin-white.svg" alt="Linkedin" />
                     </a>

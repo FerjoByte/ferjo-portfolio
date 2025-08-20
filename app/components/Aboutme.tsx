@@ -29,6 +29,11 @@ export default function Aboutme() {
             </div>
 
             <div className="flex gap-4 mt-4">
+                <a href="https://github.com/FerjoByte" target="_blank" rel="noopener noreferrer">
+                    <img src="/icon-cv.svg" alt="Github"
+                        className="" />
+                </a>
+
                 <a href="https://github.com/FerjoByte"
                     target="_blank" rel="noopener noreferrer">
                     <img src="/icon-github.svg" alt="Github" />

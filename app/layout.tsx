@@ -3,6 +3,7 @@ import { K2D, Inter} from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./globals.css";
+import Contact from "./components/Contact";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body className={`mx-5 md:mx-14 md:mt-6 ${k2d.variable} ${inter.variable}`}>
         <Navbar/> 
         {children}
+        <Contact/>
         <Footer/>
       </body>
     </html>
