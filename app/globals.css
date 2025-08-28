@@ -44,6 +44,6 @@ a.logo {
 ul#menu {
   font-family: var(--font-inter);
   font-weight: 200;
-  font-size: small;
+  font-size:medium;
   color: #DBCFCF;
 }
