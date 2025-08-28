@@ -3,7 +3,7 @@ export default function Contact() {
         <section className="md:flex items-center ">
             <div className="font-k2d basis-1/2 grid justify-items-center py-20">
                 <p className="text-xl">WANT TO COLLABORATE?</p>
-                <h3 className="text-5xl font-medium ">LET'S <br />
+                <h3 className="text-5xl font-medium ">LET`S <br />
                     <span className="text-[#91F900]">CONNECT</span>
                 </h3>
             </div>

@@ -4,7 +4,7 @@ export default function Hero(){
             <div className="flex items-center justify-center my-62 lg:my-70">
             <div className="text-center">
             <h1 className=" text-2xl md:text-2xl font-k2d font-extralight">HELLO THERE!</h1>
-            <h2 className="text-6xl lg:text-7xl font-semibold py-1">I'M <span className="text-[#91F900]">FERJO</span></h2>
+            <h2 className="text-6xl lg:text-7xl font-semibold py-1">I`M <span className="text-[#91F900]">FERJO</span></h2>
             
                <p className="font-k2d text-2xl font-extralight text-[#DBCFCF]">FULL STACK DEVELOPER</p>
            </div>
