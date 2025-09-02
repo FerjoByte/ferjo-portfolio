@@ -1,7 +1,7 @@
 export default function Hero(){
     return(
         <section className="font-inter">
-            <div className="flex items-center justify-center my-70 lg:my-74">
+            <div className="flex items-center justify-center my-70 lg:my-76">
             <div className="text-center">
             <h1 className=" text-2xl md:text-2xl font-k2d font-extralight">HELLO THERE!</h1>
             <h2 className="text-6xl lg:text-7xl font-semibold py-1">I`M <span className="text-[#91F900]">FERJO</span></h2>
