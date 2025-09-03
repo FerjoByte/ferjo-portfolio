@@ -11,7 +11,7 @@ export default function Navbar() {
 
 
     return (
-        <nav className='relative flex justify-between items-center my-4'>
+        <nav className='relative flex justify-between items-center my-8'>
             <div>
                 <a href="" className="logo">
                     <span className='block sm:hidden'>FERJO</span>
