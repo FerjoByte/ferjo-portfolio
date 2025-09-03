@@ -3,7 +3,7 @@ export default function Projects() {
         <section className="my-12">
             <h2 className="font-k2d font-semibold text-3xl text-center py-12">MY DIGITAL <span className="text-[#91F900]">CREATIONS</span></h2>
 
-            <div className="lg:flex items-center">
+            <div className="lg:flex items-center ">
                 <div className="basis-1/2">
                     <img src="project-img.png" alt="" />
                 </div>

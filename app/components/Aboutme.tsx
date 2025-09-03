@@ -2,8 +2,8 @@ export default function Aboutme() {
     return (
         <section>
             <div className="lg:flex mt-16">
-                <div className="lg:basis-1/3">
-                    <h3 className="font-k2d font-extralight text-[#B1ABAB] mt-10 text-xl ">ABOUT ME</h3>
+                <div className="lg:basis-1/3 lg:pl-12">
+                    <h3 className="font-k2d font-extralight text-[#B1ABAB] mt-10 text-xl">ABOUT ME</h3>
                     <p className="font-inter font-medium text-xl mt-4 md:text-2xl ">
                         I’M A SOFTWARE DEVELOPER. <br />
                         I ENJOY CREATING, LEARNING, <br />
