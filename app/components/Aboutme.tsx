@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 export default function Aboutme() {
     return (
         <section>
@@ -21,9 +23,12 @@ export default function Aboutme() {
                         I have a solid background in UX/UI, which helps me create user-centered
                         experiences. Currently, I’m expanding my horizons and working on projects
                         with C# and other technologies.</p>
-                    <div className="flex justify-center gap-6">
-                        <button className="px-4 py-2"> SEE PROJECTS</button>
-                        <button>DOWNLOAD MY CV</button>
+                    <div className="flex justify-center">
+                        <Button>
+                            <img src="/icon-download.svg" alt="icon-download"
+                            className="inline mr-2 pb-1" />
+                          Descargar CV
+                        </Button>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 export default function Projects() {
     return (
         <section className="my-12">
@@ -16,7 +18,9 @@ export default function Projects() {
                         and app projects, always aiming to improve my skills and learn more
                         in technology.</p>
                     <div className="flex justify-center py-4">
-                        <button> View full</button>
+                        <Button>
+                          View full project
+                        </Button>
                     </div>
                 </div>
             </div>
