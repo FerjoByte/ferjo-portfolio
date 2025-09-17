@@ -2,8 +2,8 @@ import Button from "./Button"
 
 export default function Contact() {
     return (
-        <section className="md:flex items-center ">
-            <div className="font-k2d basis-1/2 grid justify-items-center py-20">
+        <section className="md:flex items-center mt-24">
+            <div className="font-k2d basis-1/2 grid justify-items-center pb-24">
                 <p className="text-xl">WANT TO COLLABORATE?</p>
                 <h3 className="text-5xl font-medium ">LET`S <br />
                     <span className="text-[#91F900]">CONNECT</span>
@@ -44,9 +44,11 @@ export default function Contact() {
                         placeholder:text-sm placeholder:font-light resize-none"
                     /> <br />
                     <div className="flex justify-center py-8">
-                         <Button type="submit">
-                          Send message
-                        </Button>
+                        <button
+                            className="h-10 px-4 text-[#0A0917] border border-[#0A0917] rounded-xl hover:bg-[#91F900] transition-all duration-300 ease-in-out font-medium"
+                        >
+                            Send Message
+                        </button>
                     </div>
                 </form>
 

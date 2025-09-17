@@ -19,9 +19,9 @@ export default function Navbar() {
                 </a>
             </div>
             <ul id="menu" className='hidden sm:flex'>
-                <li className='pr-8'><a href="#About me">About me</a></li>
-                <li className='pr-8'><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li className='pr-8 hover:text-[#91F900] transition-all duration-500 ease-in-out'><a href="#About me">About me</a></li>
+                <li className='pr-8 hover:text-[#91F900]  transition-all duration-500 ease-in-out'><a href="#Projects">Projects</a></li>
+                <li className='hover:text-[#91F900] transition-all duration-500 ease-in-out'><a href="#Contact">Contact</a></li>
             </ul>
 
             <div className='sm:hidden'>

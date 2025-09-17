@@ -8,10 +8,10 @@ export default function Footer() {
 
             <div className="lg:basis-1/3 flex justify-center">
                 <ul className=' hidden gap-10 lg:flex'>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About me">About me</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li className='hover:text-[#91F900] transition-all duration-500 ease-in-out'><a href="#Home">Home</a></li>
+                    <li className='hover:text-[#91F900] transition-all duration-500 ease-in-out'><a href="#About me">About me</a></li>
+                    <li className='hover:text-[#91F900] transition-all duration-500 ease-in-out'><a href="#Projects">Projects</a></li>
+                    <li className='hover:text-[#91F900] transition-all duration-500 ease-in-out'><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
 
